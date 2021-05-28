@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="puzzle.css">
+    <title>minigame</title>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="puzzle.js"></script>
+</head>
+<body onload="start_game()">
+    <div class="puzzle" >
+        <img src="https://raw.githubusercontent.com/Only0nce/puzzle/main/mac.png" alt="laptop" width="1000px" height="auto">
+            <div id="tab-grid">
+                <div class="clks" id="p11" onclick="switching('p11')">11</div>
+                <div class="clks" id="p12" onclick="switching('p12')">12</div>
+                <div class="clks" id="p13" onclick="switching('p13')">13</div>
+                <div class="clks" id="p21" onclick="switching('p21')">21</div>
+                <div class="clks" id="p22" onclick="switching('p22')">22</div>
+                <div class="clks" id="p23" onclick="switching('p23')">23</div>
+                <div class="clks" id="p31" onclick="switching('p31')">31</div>
+                <div class="clks" id="p32" onclick="switching('p32')">32</div>
+                <div class="clks" id="p33" onclick="switching('p33')">33</div>
+            </div>
+            <div id="move">Moves : 0</div>
+        </div>
+    </div>
+</body>
+</html>

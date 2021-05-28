@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #555;
+}
+
+#tab-grid{
+    width: 402px;
+    height: 402px;
+    border: 5px solid #999;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #999;
+    box-shadow: 0px 0px 20px white;
+}
+
+.clks{
+    width: 133px;
+    height: 133px;
+    font-size: 0.1px;
+}
+
+#p11{
+    background: url(11.png) no-repeat;
+    background-size: cover;
+    width: 133px;
+    height: 133px;
+}
+#p12{
+    background: url(12.png) no-repeat;
+    background-size: cover;
+    width: 133px;
+    height: 133px;
+}
+#p13{
+    background: url(13.png) no-repeat;
+    background-size: cover;
+    width: 133px;
+    height: 133px;
+}
+#p21{
+    background: url(21.png) no-repeat;
+    background-size: cover;
+    width: 133px;
+    height: 133px;
+}
+#p22{
+    background: url(22.png) no-repeat;
+    background-size: cover;
+    width: 133px;
+    height: 133px;
+}
+#p23{
+    background: url(23.png) no-repeat;
+    background-size: cover;
+    width: 133px;
+    height: 133px;
+}
+#p31{
+    background: url(31.png) no-repeat;
+    background-size: cover;
+    width: 133px;
+    height: 133px;
+}
+#p32{
+    background: url(32.png) no-repeat;
+    background-size: cover;
+    width: 133px;
+    height: 133px;
+}
+#p33{
+    background: url(33.png) no-repeat;
+    background-size: cover;
+    width: 133px;
+    height: 133px;
+}
+
+#launch{
+    width: 170px;
+    margin: auto;
+    margin-top: 20px; 
+    border: 2px solid #999;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+    background-color: #999;
+    box-shadow: 0px 0px 20px #fff;
+    text-shadow: 0px 0px 10px #000;
+    cursor: pointer;
+    font-size: 25px;
+}
+#launch:hover{
+    color: #BA6F00;
+    text-shadow: 0px 0px 10px #BA6F00;
+}
+
+#move{
+    width: 233px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid #999;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+    background-color: #999;
+    box-shadow: 0px 0px 20px #FFF;
+    text-shadow: 0px 0px 10px #000;
+    font-size: 25px;
+}
